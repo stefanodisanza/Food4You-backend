@@ -23,7 +23,7 @@
 </div>
 
 <div class="container">
-    <table class="table  table-bordered table-responsive">
+    <table class="table  table-bordered table-responsive bg-light text-center">
         <thead>
 
 
@@ -56,7 +56,7 @@
 
                 {{-- BOTTONI DI MODIFICA E CANCELLAZIONE --}}
 
-                <td class="d-flex">
+                <td class="d-flex justify-content-center">
                     <a class="btn btn-secondary me-4" href="{{ route('foods.edit',$food) }}">
                         
                         
